@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    font-size: 0;
+}
+
+.row{
+    height:75px;
+    display: flex;
+    flex-direction: row;
+}
+.board{
+    display: inline-block;
+    height: 600px;
+    width: 600px;
+    background-color: blue;
+}
+
+.cell{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    height: 75px;
+    width: 75px;
+}
+
+.black{
+    background-color: #B58962;
+}
+
+.white{
+    background-color: #F0DAB5;
+}
